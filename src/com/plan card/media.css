@@ -1,0 +1,25 @@
+@media screen and (max-width: 800px) {
+  .plan-card {
+    display: block;
+    position: relative;
+    height: 80px;
+    padding-left: 80px;
+    margin-block: 20px;
+    > img {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+    > p:first-of-type {
+      margin-top: 0;
+    }
+    > p:nth-of-type(2) {
+      margin-block: 5px;
+    }
+    &hover {
+      transition: none;
+      background-color: transparent;
+      border-color: var(--gray);
+    }
+  }
+}

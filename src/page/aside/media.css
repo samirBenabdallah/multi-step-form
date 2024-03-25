@@ -1,0 +1,15 @@
+@media screen and (max-width: 800px) {
+  aside {
+    position: absolute;
+    width: 100vw;
+    background-image: url("../../public/assets/images/bg-sidebar-mobile.svg");
+    background-size: cover;
+    top: 0;
+    left: 0;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px 0px;
+    border-radius: 0px;
+  }
+}

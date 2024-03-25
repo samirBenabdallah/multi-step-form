@@ -1,0 +1,15 @@
+.plan {
+  > .container {
+    margin-top: 20px;
+    height: 180px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .plan > .container {
+    height: max-content;
+    display: block;
+  }
+}

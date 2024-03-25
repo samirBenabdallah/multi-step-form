@@ -1,0 +1,12 @@
+.thanks {
+  text-align: center;
+  flex-direction: column;
+  h1 {
+    margin-block: 20px;
+    color: var(--dark-blue);
+  }
+  p {
+    color: var(--gray);
+    line-height: 25px;
+  }
+}

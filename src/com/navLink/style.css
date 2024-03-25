@@ -1,0 +1,32 @@
+.nav-link {
+  padding: 10px;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  margin-block: 15px;
+  > div:first-child {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    border: solid 1px var(--very-light-white);
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  > div:last-child {
+    p:first-child {
+      text-transform: uppercase;
+      color: var(--gray);
+      font-size: 14px;
+    }
+    p:last-child {
+      color: var(--very-light-white);
+      text-transform: uppercase;
+    }
+  }
+}
+.nav-link.active {
+  > div:first-child {
+    background-color: var(--white);
+    color: var(--dark-blue);
+  }
+}

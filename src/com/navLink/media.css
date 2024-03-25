@@ -1,0 +1,6 @@
+@media screen and (max-width: 800px) {
+  .nav-link > div:last-child {
+    display: none;
+    background-color: red;
+  }
+}

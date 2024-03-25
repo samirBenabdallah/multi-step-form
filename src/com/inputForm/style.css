@@ -1,0 +1,42 @@
+.input-form {
+  width: 100%;
+  margin-top: 10px;
+  * {
+    cursor: pointer;
+  }
+  label {
+    display: block;
+    color: var(--dark-blue);
+  }
+  input {
+    height: 40px;
+    padding-left: 10px;
+    width: 100%;
+    color: var(--dark-blue);
+    box-shadow: 0px 0px 10pxvar (--dark-blue);
+    border: solid var(--light-gray) 1px;
+    border-radius: 5px;
+    margin-top: 10px;
+    &:focus {
+      border-color: var(--dark-blue);
+    }
+  }
+}
+.input-form.error {
+  position: relative;
+  &::after {
+    content: "this feild is required";
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: var(--red);
+  }
+  input {
+    border-color: var(--red);
+  }
+}
+.input-form.error-email {
+  &::after {
+    content: "isn't like email";
+  }
+}
